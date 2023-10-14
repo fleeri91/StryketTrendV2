@@ -23,6 +23,7 @@
       "@components/*": ["app/components/*"],
       "@hooks/*": ["app/hooks/*"],
       "@lib/*": ["app/lib/*"],
+      "@store/*": ["app/store/*"],
       "@styles/*": ["app/styles/*"],
       "@utils/*": ["app/utils/*"],
       "types/*": ["app/types/*"]
