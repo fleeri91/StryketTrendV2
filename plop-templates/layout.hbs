@@ -1,0 +1,15 @@
+interface {{properCase name}}Props {
+	/** Description of this property */
+	children?: React.ReactNode;
+}
+
+/** Main description for this component. */
+const {{properCase name}}Layout = ({ children }: {{properCase name}}Props): JSX.Element | null => {
+	return (
+		<>
+			{children}
+    </>
+	)
+}
+
+export default {{properCase name}}Layout
